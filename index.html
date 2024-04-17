@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/d563016498.js" crossorigin="anonymous"></script>>
+    <!-- Carrosel -->
+    <script src="assets/js/carousel.js" defer></script>
+
+    <title>Amanda Reis Arquiterura</title>
+    <meta name="description" content="Amanda Reis Arquitetura">
+</head>
+<body>
+
+     <!-- Botão do tema -->
+  <button id="color-toggle" class="color-toggle-button">
+    <i id="theme-icon" class="fas fa-lightbulb"></i>
+  </button>
+
+     <!--Botão Whats-->
+    <div class="whats-button">
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+         <!-- Botão "Voltar ao Topo" -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+     </div>
+
+    <!--Header-->
+    <header>
+        <div class="container flex-row">
+            <nav>
+                <ul class="header__menu flex-row">
+                    <li>
+                        <a href="#hero">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVIÇOS</a>
+                    </li>
+                    <li>
+                        <a href="#projects">PROJETOS</a>
+                    </li>
+                    <li>
+                        <a href="#team">PROFISSIONAL</a>
+                    </li>
+                    <li>
+                        <a href="#testimoials">DEPOIMENTOS</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTATOS</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="right flex-center">
+                <a href="#contact" class="btn btn-secondary">Fale comigo</a>
+                <div class="menu-btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <!--Início-->
+    <section id="hero" class="container flex-row">
+        <div class="hero__img">
+            <img src="assets/imgs/logo-semFundo.png" alt="Logo Amanda Arquitetura">
+        </div>
+    </section>
+
+    <!--Sobre-->
+    <section id="about" class="container flex-center flex-column" data-aos="fade-up">
+        <h2 class="section-heading text-center" data-aos="fade-left">SOBRE</h2>
+
+        <div class="features text-center">
+            <!--Primeiro Card: Projetos Entregues-->
+            <div class="feature" data-aos="fade-up-right">
+                <div class="feature__counter">
+                    + de <span id="projectsCounter">10</span>
+                </div>
+                <h3 class="feature__title">Projetos criados do ZERO</h3>
+                <div class="feature__text">
+                    <p>Projetos feito sob medida</p>
+                </div>
+            </div>
+
+            <!--Segundo Card: Projetos Concluídos-->
+            <div class="feature" data-aos="zoom-in">
+                <div class="feature__counter">
+                    + de <span id="projectsCounter">18</span>
+                </div>
+                <h3 class="feature__title">Projetos Concluídos</h3>
+                <div class="feature__text">
+                    <p>Executados com maestria em diversas tecnologias e plataformas</p>
+                </div>
+            </div>
+
+            <!--Terceiro Card: Clientes Satisfeits-->
+            <div class="feature" data-aos="fade-up-left">
+                <div class="feature__counter">
+                    + de <span id="clientsCounter">26</span>
+                </div>
+                <h3 class="feature__title">Clientes Sastifeitos</h3>
+                <div class="feature__text">
+                    <p>Pelo mundo com suas expectativas superadas e suas marcas fortalecidas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__details flex-center" data-aos="flip-left">
+            <div class="about__details-content">
+                <h1>Personalizando o amanhã digital</h1>
+                <p>Em 2019 Amanda teve a ideia de iniciar uma faculdade de Arquitetura</p>
+                <a href="#contact" class="btn btn-primary">Vamos Criar o seu?</a>
+            </div>
+            <div class="about__details-img">
+                <img src="assets/imgs/img-1.jpg" alt="Imagen 1">
+            </div>
+        </div>
+    </section>
+
+    <!--Serviços-->
+    <section id="services">
+        <div class="container">
+            <h5 class="sesection-subheadingc" data-aos="fade-up" data-aos-duration="100">Serviços Integrados para Impulsionar seu Cantinho</h5>
+            <h2 class="section-heading right" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">Soluções completas para seu negócio</h2>
+            <div class="services">
+                <!--Cada serviço com uma animação mais suave e duração maior-->
+                <div class="service" data-aos="fade-right" data-aos-delay="100" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Criação de Projetos Personalizados</h3>
+                    <p class="service__text">Criação de Projetos sob medida para atender ás suas necessidades exclusivas.</p>
+                </div>
+
+                <div class="service" data-aos="fade-left" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Otimização de Projetos</h3>
+                    <p class="service__text">Melhoria do seu projeto para uma melhor experiência.</p>
+                </div>
+
+                <div class="service" data-aos="fade-right" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Costomização Avançada</h3>
+                    <p class="service__text">Personalização avançada para anteder ás suas necessidades.</p>
+                </div>
+
+                <div class="service" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Suporte Técnico</h3>
+                    <p class="service__text">Suporte técnico para quaisquer duvida sobre o projeto.</p>
+                </div>
+
+                <div class="service" data-aos="fade-right" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Projetos Personalizados</h3>
+                    <p class="service__text">Estratégias para projetos mais adptados para melhoria visual.</p>
+                </div>
+
+                <div class="service" data-aos="fade-left" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-out-quart">
+                    <div class="service__icon">
+                        <img src="" alt="">
+                    </div>
+                    <h3 class="services__title">Desenvolvimento Proprio</h3>
+                    <p class="service__text">Ideias proprias personalizas para sua aprovação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projetos-->
+    <section id="projects">
+        <div class="container">
+            <h5 class="sesection-subheadingc" data-aos="fade-up">Projetos Reais</h5>
+            <h2 class="section-heading" data-aos="fade-up" data-aos-delay="100">Descubra a inovação</h2>
+            <div class="projects">
+                <!--Projeto 1-->
+                <div class="project">
+                    <div class="project__img" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/imgs/img-2.jpg" alt="">
+                    </div>
+                    <div class="project__content" data-aos="fade-up" data-aos-delay="120">
+                        <h3 class="project__category">Desenvolvimento Personalizado</h3>
+                        <h3 class="project__title">Casa da Mãe Joana</h3>
+                        <p class="project__text">A casa da Mãe Joana fica em Cotia</p>
+                    </div>
+                </div>
+
+                <!--Projeto 2-->
+                <div class="project">
+                    <div class="project__img" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/imgs/img-3.jpg" alt="">
+                    </div>
+                    <div class="project__content" data-aos="fade-up" data-aos-delay="220">
+                        <h3 class="project__category">Desenvolvimento Personalizado</h3>
+                        <h3 class="project__title">Casa da Mãe Joana</h3>
+                        <p class="project__text">A casa da Mãe Joana fica em Cotia</p>
+                    </div>
+                </div>
+
+                 <!--Projeto 3-->
+                 <div class="project">
+                    <div class="project__img" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/imgs/img-4.jpg" alt="">
+                    </div>
+                    <div class="project__content" data-aos="fade-up" data-aos-delay="320">
+                        <h3 class="project__category">Desenvolvimento Personalizado</h3>
+                        <h3 class="project__title">Casa da Mãe Joana</h3>
+                        <p class="project__text">A casa da Mãe Joana fica em Cotia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Profissional-->
+    <section id="team" class="container">
+        <h5 class="sesection-subheadingc text-center" data-aos="fade-up">Conheça o Profissional</h5>
+        <h2 class="section-heading left right text-center" data-aos="fade-up">Experiência e Dedicação em Arquitetura</h2>
+
+        <div class="members">
+            <div class="member">
+                <div class="member__img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="assets/imgs/amanda.png" alt="Sua foto">
+                </div>
+                <div class="member__content" data-aos="fade-left" data-aos-delay="300">
+                    <h1>Amanda Reis Domingo</h1>
+                    <span>Arquiteta</span>
+                    <p>Inicio de 2020, me dediquei e pasei em uma faculdade de arquitetura</p>
+                    <div class="member__skills">
+                        <h3 class="skills-title">Skills</h3>
+                        <div class="skills-list">
+                            <ul>
+                                <li>Quartos</li>
+                                <li>Restauarantes</li>
+                                <li>Clínicas</li>
+                                <li>Casas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Depoimentos-->
+    <section id="testimoials">
+        <div class="container flex-row">
+            <div class="testimonials-wrapper">
+                <p class="quotes" data-aos="zoom-in">
+                    <i class="fas fa-quote-left"></i>
+                </p>
+                <p class="sesection-subheadingc" data-aos="fade-up" data-aos-delay="100">Depoimentos</p>
+                <div class="testimonials">
+                    <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+                        <h1 class="testimonial__title">O melhor que eu já fiz foi conhecer a Amanda</h1>
+                        <p class="testimonial__text">Simplesmente transformador! A Amanda Reis Arquitetura trouxe uma nova vida para meu cantinho</p>
+                        <div class="testimonial__author">
+                            <h3>Guilherme Diogo</h3>
+                            <p>Empreendedor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-navigation">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="testimonial__img" data-aos="fade-left" data-aos-delay="300">
+                <img src="assets/imgs/amanda.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Contatos-->
+    <section id="contact">
+        <div class="container">
+            <div class="contact__img">
+                <div class="contact__contact text-center">
+                    <h5 class="sesection-subheadingc text-center" data-aos="fade-up">PRECISA DE UMA ARQUITETA?</h5>
+                    <p><a href="#">arquiteturaamandareis@gmail.com</a></p>
+                </div>
+            
+                <div class="contact">
+                    <div class="contact_ajust">
+                        <h5 class="sesection-subheadingc text-center" data-aos="fade-up">ENTRE EM CONTATO</h5>
+                        <div class="contact__details">
+                            <div class="detail">
+                                <div class="detail__icon">
+                                    <a href="#" target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="detail__icon">
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="detail__icon">
+                                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Carrosel-->
+    <sectionc id="carrosel">
+            <div class="carrosel">
+                <div class="container_carrosel" id="img">
+                    <img class="img__carrosel" src="assets/imgs/img-1.jpg" alt="">
+                    <img class="img__carrosel" src="assets/imgs/img-2.jpg" alt="">
+                    <img class="img__carrosel" src="assets/imgs/img-3.jpg" alt="">
+                    <img class="img__carrosel" src="assets/imgs/img-4.jpg" alt="">
+                    <img class="img__carrosel" src="assets/imgs/img-5.jpg" alt="">
+                </div>
+            </div>
+    </sectionc>
+
+     <!--Footer-->
+     <footer data-aos="">
+        <div class="container">
+            <h5 class="sesection-subheadingc text-center">© 2024 Amanda Reis Arquiterura. Todos os direitos reservados.</h5>
+        </div>
+     </footer>
+
+       <!-- SCRIPTS -->
+       <script src="assets/js/script.js"></script>
+       <script src="assets/js/voltarTopo.js"></script>
+       <script src="assets/js/themeMode.js"></script>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+         <!-- Inicialização do AOS -->
+        <script>
+         AOS.init();
+         </script>
+</body>
+</html>
